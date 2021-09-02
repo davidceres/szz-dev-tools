@@ -1,0 +1,24 @@
+{
+ "name": "@shiftzz/dev-tools",
+ "version": "0.1.0",
+ "description": "This is for testing only",
+ "bin": {
+  "szzd": "./build/cli.js"
+ },
+ "scripts": {
+  "build": "pastel build",
+  "dev": "pastel dev",
+  "prepare": "pastel build"
+ },
+ "files": [
+  "build"
+ ],
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "ink": "^3.0.9",
+  "pastel": "^1.1.1",
+  "prop-types": "^15.7.2",
+  "react": "^17.0.2"
+ }
+}

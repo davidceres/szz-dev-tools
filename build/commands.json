@@ -1,0 +1,22 @@
+{
+	"commands": [
+		{
+			"description": "This is my command description",
+			"positionalArgs": [],
+			"args": [
+				{
+					"key": "name",
+					"type": "string",
+					"description": "This is \"name\" option description",
+					"isRequired": false,
+					"aliases": [],
+					"positional": false
+				}
+			],
+			"isIndex": true,
+			"name": "*",
+			"path": "index.js",
+			"subCommands": []
+		}
+	]
+}
